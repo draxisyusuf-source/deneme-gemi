@@ -1,0 +1,38 @@
+name: AIS Teşhis Testi
+
+# Sadece elle çalıştırılır (Actions > AIS Teşhis Testi > Run workflow). ~3 dk kota harcar.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gemi-ajani      # ana ajanla aynı anda çalışmasın
+  cancel-in-progress: false
+
+jobs:
+  teshis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Kütüphaneleri Yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Teşhis Scriptini Çalıştır
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+          GONDEREN_MAIL: ${{ secrets.EMAIL_USER }}
+          SIFRE: ${{ secrets.EMAIL_PASSWORD }}
+          HATA_ALICI_MAIL: ${{ secrets.EMAIL_HATA_TO }}   # rapor sadece yöneticiye gider
+          TESHIS_SURESI: '150'    # sn
+        run: python teshis.py
