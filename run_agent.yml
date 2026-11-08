@@ -1,13 +1,20 @@
-name: Gemi Takip Ajani TEST
+name: Gemi Takip Ajani
 
 on:
-  workflow_dispatch:   # TEST: sadece elle çalışır, zamanlayıcı yok
+  workflow_dispatch:
+  schedule:
+    # Her 2 saatte bir (UTC): 00:07, 02:07, 04:07 ... günde 12 tarama. Türkiye saati = UTC + 3.
+    - cron: '7 */2 * * *'
+
+# Kota hesabı (özel depo, aylık 2000 dk): 12 tarama x ~5 dk x 31 gün ≈ 1860 dk (%93, SIKI).
+# Elle yapılan her çalıştırma ~5 dk harcar. Kota yetmezse DINLEME_SURESI'ni '210' yap (~4 dk/tarama).
+# Public depoda sınır yok; orada '*/5 * * * *' kullanılabilir.
 
 permissions:
-  contents: write
+  contents: write   # durum.json dosyasını depoya geri yazabilmek için
 
 concurrency:
-  group: gemi-ajani-test
+  group: gemi-ajani
   cancel-in-progress: false
 
 jobs:
@@ -35,7 +42,18 @@ jobs:
           AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
           GONDEREN_MAIL: ${{ secrets.EMAIL_USER }}
           SIFRE: ${{ secrets.EMAIL_PASSWORD }}
-          ALICI_MAIL: ${{ secrets.EMAIL_TO }}
+          ALICI_MAIL: ${{ secrets.EMAIL_TO }}          # gemi bildirimleri (müşteri)
+          ALICI_MAIL_2: ${{ secrets.EMAIL_TO_2 }}      # ikinci adres: gemi ÇIKIŞ (gitti) bildirimleri
+          ALICI_MAIL_2_KAPSAM: 'cikis'                 # 'cikis' = ikinci adres sadece çıkışları alır, 'hepsi' = giriş+çıkış+bakım
+          HATA_ALICI_MAIL: ${{ secrets.EMAIL_HATA_TO }}   # tarama raporu + hata mailleri (yönetici)
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}   # isteğe bağlı, boş bırakılabilir
+          DINLEME_SURESI: '240'      # sn
+          MIN_TANKER_BOY_M: '100'    # sadece tankerler takip edilir; bundan kısa tankerler elenir (boy bilinmiyorsa elenmez)
+          TARAMA_ARALIGI_DK: '120'   # sadece mail içinde bilgi olarak yazılır, cron ile aynı olsun
+          KACIRMA_ESIGI: '2'         # üst üste 2 taramada görülmeyen gemi "çıktı" sayılır
+          HATA_MAIL_ESIGI: '2'       # üst üste 2 başarısız taramada hata maili
+          RAPOR_MAILI: '1'           # her taramadan sonra yöneticiye rapor maili (1=aç, 0=kapat)
+          BOS_MAIL_ARALIGI_DK: '-1'  # 'Gemi bulunamadı' maili: -1=kapalı
         run: python gemi_ajani.py
 
       - name: Durumu Depoya Kaydet
@@ -45,5 +63,9 @@ jobs:
             git config user.name "gemi-ajani-bot"
             git config user.email "gemi-ajani-bot@users.noreply.github.com"
             git add durum.json
-            git diff --cached --quiet || (git commit -m "durum güncellendi" && git push)
+            if ! git diff --cached --quiet; then
+              git commit -m "durum güncellendi"
+              git pull --rebase origin main || true
+              git push
+            fi
           fi
