@@ -1,4 +1,5 @@
 {
+ "ardisik_basarisiz": 0,
  "bekleyen_mailler": [],
  "gemiler": {
   "205208790": {
@@ -26,35 +27,13 @@
   "205329890": {
    "ad": "ASTAROTH",
    "disarida_ts": null,
-   "giris_ts": 1794052796.2599974,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052796.2599974,
    "tip": 99
-  },
-  "205371190": {
-   "ad": "JO",
-   "disarida_ts": null,
-   "giris_ts": 1793545923.2060804,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545923.2060804,
-   "tip": null
-  },
-  "205393990": {
-   "ad": "DIABLO",
-   "disarida_ts": null,
-   "giris_ts": 1793545888.094569,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545888.094569,
-   "tip": null
   },
   "205521790": {
    "ad": "ANTIBES",
@@ -66,28 +45,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 89
-  },
-  "205529990": {
-   "ad": "DAMPEZZO",
-   "disarida_ts": null,
-   "giris_ts": 1793545938.9259615,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545938.9259615,
-   "tip": null
-  },
-  "205546090": {
-   "ad": "XANTHOS",
-   "disarida_ts": null,
-   "giris_ts": 1793545989.0191116,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545989.0191116,
-   "tip": null
   },
   "205553390": {
    "ad": "MILANO",
@@ -105,7 +62,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052886.1714888,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052886.1714888,
@@ -116,7 +73,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052868.967823,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052868.967823,
@@ -155,17 +112,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "210665000": {
-   "ad": "TITAN VISION",
-   "disarida_ts": null,
-   "giris_ts": 1793545928.9037232,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545928.9037232,
-   "tip": null
-  },
   "210701000": {
    "ad": "MEREL-G",
    "disarida_ts": null,
@@ -187,28 +133,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 71
-  },
-  "211157320": {
-   "ad": "BAVARIA 80",
-   "disarida_ts": null,
-   "giris_ts": 1793545986.1877804,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545986.1877804,
-   "tip": null
-  },
-  "211182160": {
-   "ad": "LOHR",
-   "disarida_ts": null,
-   "giris_ts": 1793545982.085139,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545982.085139,
-   "tip": null
   },
   "211520770": {
    "ad": "MICHELANGELO",
@@ -237,7 +161,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052785.026732,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052785.026732,
@@ -259,7 +183,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052829.5334117,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052829.5334117,
@@ -287,17 +211,6 @@
    "son_gorulme_ts": null,
    "tip": 89
   },
-  "218017990": {
-   "ad": "ELAN",
-   "disarida_ts": null,
-   "giris_ts": 1793545936.4368892,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545936.4368892,
-   "tip": null
-  },
   "218850000": {
    "ad": "CARTAGENA EXPRESS",
    "disarida_ts": null,
@@ -308,17 +221,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 70
-  },
-  "219277000": {
-   "ad": "HENNING MAERSK",
-   "disarida_ts": null,
-   "giris_ts": 1793545923.5395994,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545923.5395994,
-   "tip": null
   },
   "220644000": {
    "ad": "ERRIA SWAN",
@@ -364,17 +266,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "232061014": {
-   "ad": "CMA CGM HAMLET",
-   "disarida_ts": null,
-   "giris_ts": 1793545928.755853,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545928.755853,
-   "tip": null
-  },
   "232063671": {
    "ad": "CMA CGM JANE",
    "disarida_ts": null,
@@ -408,17 +299,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "235112981": {
-   "ad": "STOLT JAEGER",
-   "disarida_ts": null,
-   "giris_ts": 1793545924.7425308,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545924.7425308,
-   "tip": 89
-  },
   "241206000": {
    "ad": "MARAN CONQUEROR",
    "disarida_ts": null,
@@ -446,32 +326,10 @@
    "disarida_ts": null,
    "giris_ts": 1793545924.443248,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052831.5439003,
-   "tip": null
-  },
-  "244001428": {
-   "ad": "KRVE 82",
-   "disarida_ts": null,
-   "giris_ts": 1793545955.4816597,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545955.4816597,
-   "tip": null
-  },
-  "244001927": {
-   "ad": "DEN BOSCH MAX GROEN",
-   "disarida_ts": null,
-   "giris_ts": 1793545931.875689,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545931.875689,
    "tip": null
   },
   "244008544": {
@@ -490,7 +348,7 @@
    "disarida_ts": null,
    "giris_ts": 1793545931.3173854,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052801.1466973,
@@ -521,10 +379,10 @@
   "244030023": {
    "ad": "HEBO-CAT 5",
    "disarida_ts": null,
-   "giris_ts": 1793545950.237264,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052790.8417702,
    "tip": 99
@@ -562,17 +420,6 @@
    "son_gorulme_ts": null,
    "tip": 80
   },
-  "244037416": {
-   "ad": "VIGILIA II",
-   "disarida_ts": null,
-   "giris_ts": 1793545985.3019297,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545985.3019297,
-   "tip": null
-  },
   "244050426": {
    "ad": "RPA10",
    "disarida_ts": null,
@@ -600,7 +447,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052888.2872155,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052888.2872155,
@@ -620,24 +467,13 @@
   "244070903": {
    "ad": "RPA14",
    "disarida_ts": null,
-   "giris_ts": 1793545993.0636053,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052872.082515,
    "tip": 55
-  },
-  "244070991": {
-   "ad": "COMIENZO",
-   "disarida_ts": null,
-   "giris_ts": 1793545990.075888,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545990.075888,
-   "tip": null
   },
   "244073540": {
    "ad": "ORIGO",
@@ -659,17 +495,6 @@
    "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
-   "tip": null
-  },
-  "244084000": {
-   "ad": "TENDER I",
-   "disarida_ts": null,
-   "giris_ts": 1793545972.8534455,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545972.8534455,
    "tip": null
   },
   "244084476": {
@@ -721,7 +546,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052847.298074,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052847.298074,
@@ -730,24 +555,13 @@
   "244130941": {
    "ad": "NAUTICTRANS",
    "disarida_ts": null,
-   "giris_ts": 1793545973.331041,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
+   "giris_ts": null,
+   "icerde": false,
+   "kacirilan": 0,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1793545973.331041,
    "tip": 20
-  },
-  "244136452": {
-   "ad": "KRVE 1",
-   "disarida_ts": null,
-   "giris_ts": 1793545944.2447548,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545944.2447548,
-   "tip": null
   },
   "244150637": {
    "ad": "JAR",
@@ -759,28 +573,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 99
-  },
-  "244167000": {
-   "ad": "MERCUUR",
-   "disarida_ts": null,
-   "giris_ts": 1793545928.7558057,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545928.7558057,
-   "tip": null
-  },
-  "244182410": {
-   "ad": "5 OCEANS",
-   "disarida_ts": null,
-   "giris_ts": 1793545887.1084578,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545937.733073,
-   "tip": null
   },
   "244216000": {
    "ad": "VB FURIE",
@@ -798,7 +590,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052782.1136994,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052782.1136994,
@@ -897,7 +689,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052844.4298446,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052844.4298446,
@@ -908,7 +700,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052882.5082142,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052882.5082142,
@@ -936,34 +728,12 @@
    "son_gorulme_ts": null,
    "tip": 79
   },
-  "244620947": {
-   "ad": "VEERHAVEN X",
-   "disarida_ts": null,
-   "giris_ts": 1793545985.9735746,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545985.9735746,
-   "tip": null
-  },
-  "244620962": {
-   "ad": "ALFA MENTA",
-   "disarida_ts": null,
-   "giris_ts": 1793545906.6383357,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545906.6383357,
-   "tip": null
-  },
   "244630027": {
    "ad": "MARTENS 4",
    "disarida_ts": null,
    "giris_ts": 1794052835.1196964,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052835.1196964,
@@ -1007,21 +777,10 @@
    "disarida_ts": null,
    "giris_ts": 1794052811.3875372,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052839.9850395,
-   "tip": null
-  },
-  "244650607": {
-   "ad": "QUADRANS 2",
-   "disarida_ts": null,
-   "giris_ts": 1793545914.840331,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545914.840331,
    "tip": null
   },
   "244650690": {
@@ -1049,10 +808,10 @@
   "244650905": {
    "ad": "AVANTI",
    "disarida_ts": null,
-   "giris_ts": 1794052807.8848803,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052807.8848803,
    "tip": 79
@@ -1084,7 +843,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052826.4466338,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052826.4466338,
@@ -1134,17 +893,6 @@
    "son_gorulme_ts": null,
    "tip": 80
   },
-  "244660395": {
-   "ad": "WAALWIJK",
-   "disarida_ts": null,
-   "giris_ts": 1793545946.7934062,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545946.7934062,
-   "tip": 79
-  },
   "244660545": {
    "ad": "UNIQUESHIP",
    "disarida_ts": null,
@@ -1154,17 +902,6 @@
    "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
-   "tip": null
-  },
-  "244660639": {
-   "ad": "VLAARDINGEN",
-   "disarida_ts": null,
-   "giris_ts": 1793545889.7895973,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545889.7895973,
    "tip": null
   },
   "244660653": {
@@ -1183,22 +920,11 @@
    "disarida_ts": null,
    "giris_ts": 1794052834.43446,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052834.43446,
    "tip": 80
-  },
-  "244660790": {
-   "ad": "ORA ET LABORA",
-   "disarida_ts": null,
-   "giris_ts": 1793545938.9970877,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545938.9970877,
-   "tip": null
   },
   "244660841": {
    "ad": "VOLLENHOVE",
@@ -1227,7 +953,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052808.3133218,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052877.3695757,
@@ -1242,17 +968,6 @@
    "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
-   "tip": null
-  },
-  "244670258": {
-   "ad": "PETRAQ",
-   "disarida_ts": null,
-   "giris_ts": 1793545917.6023808,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545917.6023808,
    "tip": null
   },
   "244670291": {
@@ -1326,7 +1041,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052890.106609,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052890.106609,
@@ -1348,7 +1063,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052811.6734273,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052811.6734273,
@@ -1387,23 +1102,12 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "244690411": {
-   "ad": "SCHIEPLUS",
-   "disarida_ts": null,
-   "giris_ts": 1793545977.175294,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545977.175294,
-   "tip": null
-  },
   "244690451": {
    "ad": "VEERHAVEN XI",
    "disarida_ts": null,
    "giris_ts": 1794052887.302568,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052887.302568,
@@ -1436,21 +1140,10 @@
    "disarida_ts": null,
    "giris_ts": 1794052805.5419495,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052873.3703165,
-   "tip": null
-  },
-  "244700661": {
-   "ad": "VRIDO 1",
-   "disarida_ts": null,
-   "giris_ts": 1793545966.2174034,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545966.2174034,
    "tip": null
   },
   "244700690": {
@@ -1462,17 +1155,6 @@
    "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
-   "tip": null
-  },
-  "244700714": {
-   "ad": "SOMTRANS XX",
-   "disarida_ts": null,
-   "giris_ts": 1793545926.0166228,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545926.0166228,
    "tip": null
   },
   "244700830": {
@@ -1502,21 +1184,10 @@
    "disarida_ts": null,
    "giris_ts": 1794052803.1056385,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052803.1056385,
-   "tip": null
-  },
-  "244710183": {
-   "ad": "PATRIJS",
-   "disarida_ts": null,
-   "giris_ts": 1793545986.5404658,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545986.5404658,
    "tip": null
   },
   "244710256": {
@@ -1546,21 +1217,10 @@
    "disarida_ts": null,
    "giris_ts": 1794052820.1253061,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052880.319259,
-   "tip": null
-  },
-  "244710739": {
-   "ad": "DRAGA",
-   "disarida_ts": null,
-   "giris_ts": 1793545960.4135287,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545960.4135287,
    "tip": null
   },
   "244710971": {
@@ -1590,7 +1250,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052823.1558106,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052884.6878643,
@@ -1612,7 +1272,7 @@
    "disarida_ts": null,
    "giris_ts": 1793545893.1355505,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052801.5323575,
@@ -1623,7 +1283,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052847.1811454,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052847.1811454,
@@ -1662,17 +1322,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "244740545": {
-   "ad": "DIVA ROMY",
-   "disarida_ts": null,
-   "giris_ts": 1793545987.8869057,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545987.8869057,
-   "tip": null
-  },
   "244740618": {
    "ad": "HOLLANDSCH DIEP",
    "disarida_ts": null,
@@ -1683,28 +1332,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 69
-  },
-  "244740625": {
-   "ad": "RVE 57",
-   "disarida_ts": null,
-   "giris_ts": 1793545879.1760228,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545879.1760228,
-   "tip": null
-  },
-  "244740804": {
-   "ad": "LA BLANCA",
-   "disarida_ts": null,
-   "giris_ts": 1793545876.9446037,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545936.6431086,
-   "tip": null
   },
   "244750309": {
    "ad": "ARUBA",
@@ -1722,7 +1349,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052856.6675477,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052856.6675477,
@@ -1731,32 +1358,21 @@
   "244750887": {
    "ad": "ZIJPE",
    "disarida_ts": null,
-   "giris_ts": 1793545956.8003767,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052848.3626692,
    "tip": 33
   },
-  "244750893": {
-   "ad": "HARINGVLIET",
-   "disarida_ts": null,
-   "giris_ts": 1793545991.5473142,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545991.5473142,
-   "tip": null
-  },
   "244758000": {
    "ad": "STENA HOLLANDICA",
    "disarida_ts": null,
-   "giris_ts": 1794052873.7936115,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052873.7936115,
    "tip": 61
@@ -1788,7 +1404,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052867.6275594,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052867.6275594,
@@ -1865,7 +1481,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052821.0285063,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052821.0285063,
@@ -1876,7 +1492,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052837.197752,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052897.2591202,
@@ -1907,10 +1523,10 @@
   "244791000": {
    "ad": "VB ROB",
    "disarida_ts": null,
-   "giris_ts": 1793545928.7557502,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052828.9976542,
    "tip": 52
@@ -1931,7 +1547,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052834.9434907,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052834.9434907,
@@ -1959,23 +1575,12 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "244820200": {
-   "ad": "RHENUS",
-   "disarida_ts": null,
-   "giris_ts": 1793545948.3538063,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545948.3538063,
-   "tip": 33
-  },
   "244820603": {
    "ad": "KRVE18",
    "disarida_ts": null,
    "giris_ts": 1794052850.8325775,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052850.8325775,
@@ -1986,7 +1591,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052870.9021814,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052870.9021814,
@@ -2003,48 +1608,15 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "244850403": {
-   "ad": "SNIP",
-   "disarida_ts": null,
-   "giris_ts": 1793545921.6078818,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545921.6078818,
-   "tip": null
-  },
-  "244860469": {
-   "ad": "NEPTUNUS 10",
-   "disarida_ts": null,
-   "giris_ts": 1793545941.8701646,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545941.8701646,
-   "tip": null
-  },
   "244924000": {
    "ad": "VB HUDSON",
    "disarida_ts": null,
    "giris_ts": 1794052844.4299407,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052844.4299407,
-   "tip": null
-  },
-  "245088000": {
-   "ad": "ENERGIZER",
-   "disarida_ts": null,
-   "giris_ts": 1793545954.8684142,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545954.8684142,
    "tip": null
   },
   "245425000": {
@@ -2052,7 +1624,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052863.823194,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052863.823194,
@@ -2061,10 +1633,10 @@
   "245484000": {
    "ad": "VB ROTTERDAM",
    "disarida_ts": null,
-   "giris_ts": 1794052808.61474,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052808.61474,
    "tip": 52
@@ -2116,10 +1688,10 @@
   "245931000": {
    "ad": "VB BRENT",
    "disarida_ts": null,
-   "giris_ts": 1793545924.7424283,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052838.6968415,
    "tip": 52
@@ -2135,46 +1707,24 @@
    "son_gorulme_ts": null,
    "tip": 52
   },
-  "246137000": {
-   "ad": "ENDEAVOUR (PILOTS)",
-   "disarida_ts": null,
-   "giris_ts": 1793545946.7933023,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545946.7933023,
-   "tip": null
-  },
   "246168000": {
    "ad": "MARRY-S",
    "disarida_ts": null,
    "giris_ts": 1794052830.684309,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052830.684309,
    "tip": null
   },
-  "246543000": {
-   "ad": "VB TIGER",
-   "disarida_ts": null,
-   "giris_ts": 1793545903.1899586,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545903.1899586,
-   "tip": 52
-  },
   "246657000": {
    "ad": "DRACO (PILOT VESSEL)",
    "disarida_ts": null,
-   "giris_ts": 1793545878.6280978,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
+   "giris_ts": null,
+   "icerde": false,
+   "kacirilan": 0,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1793545935.0244768,
    "tip": 50
@@ -2223,17 +1773,6 @@
    "son_gorulme_ts": null,
    "tip": 90
   },
-  "249110003": {
-   "ad": "RICOCHET",
-   "disarida_ts": null,
-   "giris_ts": 1793545886.9048398,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545886.9048398,
-   "tip": null
-  },
   "249930000": {
    "ad": "ESKE",
    "disarida_ts": null,
@@ -2243,17 +1782,6 @@
    "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
-   "tip": null
-  },
-  "253000001": {
-   "ad": "RIVAL",
-   "disarida_ts": null,
-   "giris_ts": 1793545879.459589,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545879.459589,
    "tip": null
   },
   "253242033": {
@@ -2278,17 +1806,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "255804460": {
-   "ad": "JOHANN ESSBERGER",
-   "disarida_ts": null,
-   "giris_ts": 1793545945.7182097,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545945.7182097,
-   "tip": null
-  },
   "255806230": {
    "ad": "TUULIA",
    "disarida_ts": null,
@@ -2299,28 +1816,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 80
-  },
-  "255851000": {
-   "ad": "FYN",
-   "disarida_ts": null,
-   "giris_ts": 1793545930.2661607,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545930.2661607,
-   "tip": null
-  },
-  "255915652": {
-   "ad": "FAIRPLAY-25",
-   "disarida_ts": null,
-   "giris_ts": 1793545936.2228415,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545936.2228415,
-   "tip": 52
   },
   "255915653": {
    "ad": "FAIRPLAY-28",
@@ -2336,21 +1831,21 @@
   "255915686": {
    "ad": "FAIRPLAY-29",
    "disarida_ts": null,
-   "giris_ts": 1793545983.8330674,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052860.9450152,
    "tip": 52
   },
   "255915699": {
    "ad": "FAIRPLAY-92",
-   "disarida_ts": 1794052878.089357,
-   "giris_ts": 1793545917.6024778,
-   "icerde": true,
+   "disarida_ts": null,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1793545917.6024778,
    "tip": 52
@@ -2358,10 +1853,10 @@
   "255915799": {
    "ad": "FAIRPLAY X",
    "disarida_ts": null,
-   "giris_ts": 1794052851.9034812,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052851.9034812,
    "tip": 52
@@ -2380,10 +1875,10 @@
   "255917354": {
    "ad": "NOPAC CHALLENGER",
    "disarida_ts": null,
-   "giris_ts": 1794052890.2473915,
-   "icerde": true,
+   "giris_ts": null,
+   "icerde": false,
    "kacirilan": 0,
-   "mail_giris": true,
+   "mail_giris": false,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052890.2473915,
    "tip": 70
@@ -2393,7 +1888,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052845.0592675,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052845.0592675,
@@ -2409,17 +1904,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 71
-  },
-  "257702000": {
-   "ad": "POLAR VIKING",
-   "disarida_ts": null,
-   "giris_ts": 1793545938.122736,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545938.122736,
-   "tip": null
   },
   "258960000": {
    "ad": "BOW SAGA",
@@ -2465,17 +1949,6 @@
    "son_gorulme_ts": null,
    "tip": null
   },
-  "269057052": {
-   "ad": "ELIXER",
-   "disarida_ts": null,
-   "giris_ts": 1793545921.2111292,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545921.2111292,
-   "tip": null
-  },
   "269057061": {
    "ad": "APHRODITE",
    "disarida_ts": null,
@@ -2487,17 +1960,6 @@
    "son_gorulme_ts": null,
    "tip": 80
   },
-  "269057091": {
-   "ad": "DEJA",
-   "disarida_ts": null,
-   "giris_ts": 1793545985.1005282,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545985.1005282,
-   "tip": null
-  },
   "304473000": {
    "ad": "HAV DOLPHIN",
    "disarida_ts": null,
@@ -2508,17 +1970,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": null
-  },
-  "305696000": {
-   "ad": "MONTJOLY",
-   "disarida_ts": null,
-   "giris_ts": 1793545917.2620854,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545976.8532705,
-   "tip": 70
   },
   "308687000": {
    "ad": "CASTORO 10",
@@ -2536,7 +1987,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052839.3710725,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052839.3710725,
@@ -2547,7 +1998,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052875.4813042,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052875.4813042,
@@ -2563,17 +2014,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 70
-  },
-  "351321000": {
-   "ad": "NAVIOS ANTARES",
-   "disarida_ts": null,
-   "giris_ts": 1793545972.2994606,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545972.2994606,
-   "tip": null
   },
   "352002605": {
    "ad": "LOWLANDS SKY",
@@ -2646,7 +2086,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052782.5029464,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052782.5029464,
@@ -2707,23 +2147,12 @@
    "son_gorulme_ts": null,
    "tip": 71
   },
-  "563326900": {
-   "ad": "AOM ANA MARIA",
-   "disarida_ts": null,
-   "giris_ts": 1793545985.8536491,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545985.8536491,
-   "tip": 70
-  },
   "563327500": {
    "ad": "EVER GENTLE",
    "disarida_ts": null,
    "giris_ts": 1794052800.3235688,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052800.3235688,
@@ -2734,7 +2163,7 @@
    "disarida_ts": null,
    "giris_ts": 1794052822.9176278,
    "icerde": true,
-   "kacirilan": 0,
+   "kacirilan": 1,
    "mail_giris": true,
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": 1794052822.9176278,
@@ -2750,17 +2179,6 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 70
-  },
-  "636019020": {
-   "ad": "CAPE CONDOR",
-   "disarida_ts": null,
-   "giris_ts": 1793545934.7150724,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545934.7150724,
-   "tip": null
   },
   "636019989": {
    "ad": "SOLAR SUSIE",
@@ -2783,17 +2201,9 @@
    "son_genel_ts": 1794052899.3198214,
    "son_gorulme_ts": null,
    "tip": 79
-  },
-  "636025489": {
-   "ad": "FAETHON",
-   "disarida_ts": null,
-   "giris_ts": 1793545993.1131866,
-   "icerde": true,
-   "kacirilan": 1,
-   "mail_giris": true,
-   "son_genel_ts": 1793545994.5885644,
-   "son_gorulme_ts": 1793545993.1131866,
-   "tip": null
   }
- }
+ },
+ "hata_baslangic_ts": null,
+ "hata_maili_gonderildi": false,
+ "kurulu_surum": "v7|mail2=cikis|aralik=?|dinleme=240|kacirma=2|hata=2|sadece-tanker>=100m"
 }
