@@ -36,3 +36,4 @@ jobs:
           HATA_ALICI_MAIL: ${{ secrets.EMAIL_HATA_TO }}   # rapor sadece yöneticiye gider
           TESHIS_SURESI: '150'    # sn
         run: python teshis.py
+      
