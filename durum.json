@@ -1,8 +1,8 @@
 {
- "ardisik_basarisiz": 1,
+ "ardisik_basarisiz": 2,
  "bekleyen_mailler": [],
  "gemiler": {},
  "hata_baslangic_ts": 1795770862.0259373,
- "hata_maili_gonderildi": false,
+ "hata_maili_gonderildi": true,
  "kurulu_surum": "v7|mail2=cikis|aralik=120|dinleme=240|kacirma=2|hata=2|sadece-tanker>=100m"
 }
